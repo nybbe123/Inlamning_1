@@ -1,5 +1,3 @@
-window.onload = main;
-
 //Globala variabler
 const gameText = document.getElementById("text");
 const gameInput = document.getElementById("input");
@@ -9,16 +7,9 @@ const gameButtonThree = document.getElementById("btn-three");
 const colorObjekts = ["röd", "blå", "grön"];
 
 /**
- * Funktion som aktiveras så fort sidan har laddats och anropar ytterligare en funktion vid namn addEventListeners
+ * Funktion som anropas direkt när sidan laddats klart och inväntar interaktion från användare. Vid klick anropas funktionen stageOne
  */
-function main() {
-  addEventListeners();
-}
-
-/**
- * Funktion som inväntar interaktion från användare. Vid klick anropas funktionen stageOne
- */
-function addEventListeners() {
+function startGame() {
   gameButton.onclick = stageOne; 
 }
 
@@ -216,3 +207,5 @@ function stageFiveGreen() {
   gameInput.style.display = "none";
   gameButton.style.display = "none";
 }
+
+startGame();
