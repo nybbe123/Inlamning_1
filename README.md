@@ -12,7 +12,7 @@ Uppgiften bestod i att utveckla ett textbaserat och interaktivt spel. Detta spel
 - [x] Prompt används för att be användaren om kommandon<br>
 - [x] Alert används för ge information till användaren om världen<br>
 - [x] Git & GitHub har använts<br>
-- [x] Projektmappen innehåller en README.md fil - (läs ovan för mer info)<br>
+- [x] Projektmappen innehåller en README.md fil<br>
 - [x] Uppgiften lämnas in i tid!<br>
 
 ### Väl godkänt:
